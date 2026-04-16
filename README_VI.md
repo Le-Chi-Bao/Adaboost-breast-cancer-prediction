@@ -21,7 +21,8 @@ Sử dụng bộ dữ liệu Breast Cancer Wisconsin với 30 đặc trưng.
 ##  Cấu trúc project
 ```
 AdaBoost/
-│
+│__ data
+|   |__ data.csv
 ├── notebook.ipynb
 ├── app.py
 ├── saved_models/
