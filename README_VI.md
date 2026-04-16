@@ -1,16 +1,16 @@
 # 🧠 Dự đoán khối u vú bằng AdaBoost
 
-## 📌 Giới thiệu
+##  Giới thiệu
 Dự án này xây dựng mô hình **AdaBoost từ đầu (from scratch)** để dự đoán khối u vú thuộc hai nhóm:
 
-- 🟢 Lành tính (Benign)  
-- 🔴 Ác tính (Malignant)
+-  Lành tính (Benign)  
+-  Ác tính (Malignant)
 
 Sử dụng bộ dữ liệu Breast Cancer Wisconsin với 30 đặc trưng.
 
 ---
 
-## 🎯 Mục tiêu
+##  Mục tiêu
 - Hiểu và cài đặt thuật toán AdaBoost
 - So sánh với mô hình sklearn
 - Phân tích sâu hành vi của mô hình
@@ -18,7 +18,7 @@ Sử dụng bộ dữ liệu Breast Cancer Wisconsin với 30 đặc trưng.
 
 ---
 
-## 📂 Cấu trúc project
+##  Cấu trúc project
 ```
 AdaBoost/
 │
@@ -34,7 +34,7 @@ AdaBoost/
 
 ---
 
-## ⚙️ Phương pháp
+##  Phương pháp
 
 ### AdaBoost (tự cài đặt)
 - Huấn luyện weak learner (decision stump)
@@ -48,7 +48,7 @@ Sử dụng `AdaBoostClassifier` để so sánh kết quả.
 
 ---
 
-## 📊 Kết quả
+##  Kết quả
 - Độ chính xác ~ **98%**
 - Mô hình tự xây dựng ≈ mô hình sklearn
 - Không có false positive
@@ -56,14 +56,14 @@ Sử dụng `AdaBoostClassifier` để so sánh kết quả.
 
 ---
 
-## 📈 Phân tích mô hình
+##  Phân tích mô hình
 - Alpha giảm dần theo từng vòng boosting
 - Entropy giảm → mô hình tập trung vào mẫu khó
 - Decision score phân tách rõ hai lớp
 
 ---
 
-## 🌐 Demo Web (Gradio)
+##  Demo Web (Gradio)
 
 Chạy ứng dụng:
 ```
@@ -77,24 +77,25 @@ Chức năng:
 
 ---
 
-## 💾 Lưu mô hình
+##  Lưu mô hình
 - Custom model: lưu dạng state (alphas, trees, M)
 - Sklearn model: lưu bằng joblib
 - Scaler: lưu để dùng lại khi dự đoán
 
 ---
 
-## 🚀 Hướng phát triển
+##  Hướng phát triển
 - Giảm lỗi false negative
 - Thử các mô hình mạnh hơn (XGBoost, Gradient Boosting)
 - Triển khai web thực tế
 
 ---
 
-## ⚠️ Lưu ý
+##  Lưu ý
 Dự án mang tính học tập, không dùng cho chẩn đoán y khoa thực tế.
 
 ---
 
-## 👨‍💻 Tác giả
-Sinh viên ngành Machine Learning
+##  Tác giả
+Lê Chí Bảo
+Sinh viên ngành Datascience và AI 
