@@ -66,11 +66,6 @@ Sử dụng `AdaBoostClassifier` để so sánh kết quả.
 
 ##  Demo Web (Gradio)
 
-Chạy ứng dụng:
-```
-python app.py
-```
-
 Chức năng:
 - Dự đoán một mẫu
 - Dự đoán hàng loạt bằng file CSV
